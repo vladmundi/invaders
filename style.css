@@ -1,0 +1,50 @@
+body{
+	margin:0;
+	cursor: none;
+}
+
+.world{
+	background: black;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 800px;
+	top: 0;
+	bottom: 0;
+    overflow: hidden;
+}
+
+.player,
+.enemy{
+	top: 0;
+	left: 0;
+	position: absolute;
+	display: block;
+	transform-origin: center;
+	transform: translate(0, 0);
+}
+
+.dev-console {
+    background: #b0b0b0;
+    position: absolute;
+    z-index: 1;    
+    width: 240px;
+    padding: 5px;
+}
+
+.ship,
+.enemy-ship{
+	display:block;
+	transform-origin: center;
+	transform: rotateZ(45deg);
+	border: solid white;
+	border-width: 3px 0 0 3px;
+	border-radius: 0 50% 0 50%;
+	width: 15px;
+	height: 15px;
+}
+
+.enemy-ship{
+	border: solid red;
+	border-width: 0 3px 3px 0;
+}
