@@ -1,0 +1,21 @@
+{
+  "name": "invaders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladmundi/invaders.git"
+  },
+  "author": "Vlad Mundi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladmundi/invaders/issues"
+  },
+  "homepage": "https://github.com/vladmundi/invaders#readme",
+  "devDependencies": {
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.4.0"
+  }
+}

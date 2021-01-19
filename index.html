@@ -1,25 +1,14 @@
 <html>
-	<head>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<div class="dev-console">
-			<h1>Dev Console</h1>
-			<div>
-				<span class="dev-console__label">Mouse X: </span><span id="mouseX" class="dev-console__value"></span>
-				<span class="dev-console__label">Mouse Y: </span><span id="mouseY" class="dev-console__value"></span>
-			</div>
-			<div>
-				<span class="dev-console__label">FPS: </span><span id="fps" class="dev-console__value"></span>
-				<span class="dev-console__label">Lag: </span><span id="lag" class="dev-console__value"></span>
-			</div>
-		</div>
-		<div id="play-area" class="world">
-			<div id="player" class="player">
-				<div class="ship">
-				</div>
-			</div>
-		</div>
-	</body>
-	<script src="script.js"></script>
+  <head>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+  </body>
+  <script type="module" src="dist/bundle.js"></script>
 </html>
